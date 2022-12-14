@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>QuizCountries</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="header">
+        <h1 class="quizH1">Country Quiz</h1>
+        <div class="mode">
+          <p>Game Level</p>
+          <select name="mode" id="mode">
+            <option value="2">Easy</option>
+            <option selected value="4">Medium</option>
+            <option value="6">Hard</option>
+          </select>
+        </div>
+      </div>
+      <div class="game-container">
+        <div class="game">
+          <img class="country-flag" />
+          <h3 class="question">
+            <span class="capital-flag"></span>
+          </h3>
+          <div class="answers"></div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="main.js"></script>
+</html>
